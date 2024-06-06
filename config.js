@@ -143,7 +143,7 @@ var config = {
             hidden: false,
             title: 'Airbnbs in Cuauhtémoc, Oct 2023',
             // image: './images/tulum_beach.jpg',
-            description: 'This is what this looks like as a heatmap.',
+            description: 'This is what this looks like as a heatmap. <br> TODO: add a border for the boundary.',
             
             location: {
                 center: [-99.16667, 19.43398],
@@ -182,7 +182,7 @@ var config = {
             hidden: false,
             title: 'Airbnbs in Cuauhtémoc, Oct 2023',
             // image: './images/tulum_beach.jpg',
-            description: 'This is what this looks like as a dot distribution map.',
+            description: 'This is what this looks like as a dot distribution map. <br> TODO: add a border for the boundary.',
             
             location: {
                 center: [-99.16667, 19.43398],
@@ -222,7 +222,7 @@ var config = {
             hidden: false,
             title: 'Airbnbs in Colonia Juárez, Oct 2023',
             // image: './images/tulum_beach.jpg',
-            description: 'This is what this looks like as a dot distribution map, zoomed into Colonia Juárez.',
+            description: 'This is what this looks like as a dot distribution map, zoomed into Colonia Juárez. <br> TODO: add a border for the boundary.',
             
             location: {
                 center: [-99.17099, 19.42835],
@@ -262,7 +262,7 @@ var config = {
             hidden: false,
             title: 'Airbnbs in Colonia Juárez, Oct 2023',
             // image: './images/tulum_beach.jpg',
-            description: 'And this is what the heatmap zoomed into Colonia Juárez looks like.',
+            description: 'And this is what the heatmap zoomed into Colonia Juárez looks like. <br> TODO: add a border for the boundary.',
             
             location: {
                 center: [-99.17099, 19.42835],
