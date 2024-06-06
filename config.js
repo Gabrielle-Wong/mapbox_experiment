@@ -146,10 +146,10 @@ var config = {
             description: 'This is what this looks like as a heatmap.',
             
             location: {
-                center: [-99.19201, 19.43748],
-                zoom: 12.68,
-                pitch: 7.50,
-                bearing: 11.20
+                center: [-99.16667, 19.43398],
+                zoom: 12.15,
+                pitch: 7.00,
+                bearing: 10
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -185,10 +185,10 @@ var config = {
             description: 'This is what this looks like as a dot distribution map.',
             
             location: {
-                center: [-99.19201, 19.43748],
-                zoom: 12.68,
-                pitch: 7.50,
-                bearing: 11.20
+                center: [-99.16667, 19.43398],
+                zoom: 12.15,
+                pitch: 7.00,
+                bearing: 10
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
@@ -225,9 +225,9 @@ var config = {
             description: 'This is what this looks like as a dot distribution map, zoomed into Colonia Juárez.',
             
             location: {
-                center: [-99.17425, 19.42672],
-                zoom: 14.50,
-                pitch: 8.00,
+                center: [-99.17099, 19.42835],
+                zoom: 13.54,
+                pitch: 7.00,
                 bearing: 0.00
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -265,9 +265,9 @@ var config = {
             description: 'And this is what the heatmap zoomed into Colonia Juárez looks like.',
             
             location: {
-                center: [-99.17425, 19.42672],
-                zoom: 14.50,
-                pitch: 8.00,
+                center: [-99.17099, 19.42835],
+                zoom: 13.54,
+                pitch: 7.00,
                 bearing: 0.00
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
