@@ -47,7 +47,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'cua-oct23_heatmap',
+                    layer: 'cua-oct23',
                     opacity: 0,
                     duration: 1
                 }
