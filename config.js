@@ -136,45 +136,7 @@ var config = {
                 // }
             ]
         },
-        {
-            
-            id: 'cuaoct23_heat',
-            alignment: 'left',
-            hidden: false,
-            title: 'Airbnbs in Cuauhtémoc, Oct 2023',
-            // image: './images/tulum_beach.jpg',
-            description: 'This is what this looks like as a heatmap. <br> TODO: add a border for the boundary.',
-            
-            location: {
-                center: [-99.16667, 19.43398],
-                zoom: 12.15,
-                pitch: 7.00,
-                bearing: 10
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'easeTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'cua-oct23_heatmap',
-                     opacity: 0.6,
-                     duration: 2000
-                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'cua-oct23_heatmap',
-                    opacity: 0,
-                    duration: 2000
-                }
-            ]
-        },
+        
         {
             
             id: 'cuaoct23_point',
@@ -182,7 +144,7 @@ var config = {
             hidden: false,
             title: 'Airbnbs in Cuauhtémoc, Oct 2023',
             // image: './images/tulum_beach.jpg',
-            description: 'This is what this looks like as a dot distribution map. <br> TODO: add a border for the boundary.',
+            description: 'This is what the distribution looks like as a dot  map. <br> TODO: add a border for the boundary.',
             
             location: {
                 center: [-99.16667, 19.43398],
@@ -255,45 +217,6 @@ var config = {
             ]
         },
 
-        {
-            
-            id: 'juaoct23_heatmap',
-            alignment: 'left',
-            hidden: false,
-            title: 'Airbnbs in Colonia Juárez, Oct 2023',
-            // image: './images/tulum_beach.jpg',
-            description: 'And this is what the heatmap zoomed into Colonia Juárez looks like. <br> TODO: add a border for the boundary.',
-            
-            location: {
-                center: [-99.17099, 19.42835],
-                zoom: 13.54,
-                pitch: 7.00,
-                bearing: 0.00
-                // flyTo additional controls-
-                // These options control the flight curve, making it move
-                // slowly and zoom out almost completely before starting
-                // to pan.
-                //speed: 2, // make the flying slow
-                //curve: 1, // change the speed at which it zooms out
-            },
-            mapAnimation: 'easeTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                 {
-                     layer: 'cua-oct23_heatmap',
-                     opacity: 0.65,
-                     duration: 2000
-                 }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'cua-oct23_heatmap',
-                    opacity: 0,
-                    duration: 2000
-                }
-            ]
-        }
         
     ]
 };
