@@ -10,7 +10,7 @@ var config = {
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: true,
     theme: 'dark',
-    use3dTerrain: true, //set true for enabling 3D maps.
+    use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
 
     // Story Details
@@ -60,7 +60,47 @@ var config = {
             ]
             
         },
-        
+
+        {
+            // Template Chapter
+            id: 'chapter_id_2',
+            alignment: 'left',
+            hidden: false,
+            title: 'Standard Chapter 2.0',
+            // image: './images/tulum_beach.jpg',
+            description: 'Text for the chapter goes here. <br> <br> Use a br wrapped in <> for a second paragraph.',
+            
+            location: {
+                center: [-99.17439, 19.42926],
+                zoom: 14.25,
+                pitch: 0,
+                bearing: 0
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+            
+        },
+
         {
             // Template Center Chapter
             id: 'header_chapter',
@@ -98,7 +138,6 @@ var config = {
                 // }
             ]
         },
-
         {
             // Map Only Chapter
             id: 'map_only_chapter',
@@ -256,6 +295,5 @@ var config = {
                 }
             ]
         }
-        
     ]
 };
