@@ -251,7 +251,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'napoles',
+                    layer: 'napoles35',
                     opacity: 0,
                     duration: 2000
                 }
