@@ -1,8 +1,8 @@
 var config = {
     // Setup here:
     // style: 'mapbox://styles/mapbox/standard',
-    style: 'mapbox://styles/gabrielle-wong/clx2r060i01ph01po8qqtbeqy',
-    accessToken: 'pk.eyJ1IjoiZ2FicmllbGxlLXdvbmciLCJhIjoiY2x4MHlyaTk0MDYxbTJpcTZkcm1lYWJmZSJ9.4XHLp0pEl9FD8AXQeiMdyw',
+    style: 'mapbox://styles/gabrielle-wong/clx9q7dvz00b501mwascmggrn',
+    accessToken: 'pk.eyJ1IjoiZ2FicmllbGxlLXdvbmciLCJhIjoiY2x3c3ExbmZyMGR5bjJrcHd2azBmbzFvMiJ9.8-S_nj9d_ib2Z2Kf67xe1w',
     showMarkers: false,
     markerColor: '#FFFFFF',
     //projection: 'equirectangular',
@@ -224,7 +224,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Pandora (Nápoles 35)',
-            // image: './images/tulum_beach.jpg',
+            image: './images/pandora.png',
             // description: 'This is what this looks like as a dot distribution map, zoomed into Colonia Juárez. <br> TODO: add a border for the boundary.',
             
             location: {
