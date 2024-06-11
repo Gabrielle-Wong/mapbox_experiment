@@ -217,6 +217,47 @@ var config = {
             ]
         },
 
+
+        {
+            
+            id: 'napoles35_point',
+            alignment: 'left',
+            hidden: false,
+            title: 'Pandora (Nápoles 35)',
+            // image: './images/tulum_beach.jpg',
+            // description: 'This is what this looks like as a dot distribution map, zoomed into Colonia Juárez. <br> TODO: add a border for the boundary.',
+            
+            location: {
+                center: [-99.16086, 19.42733],
+                zoom: 18.5,
+                pitch: 70,
+                bearing: -55.00
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'easeTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'napoles35',
+                     opacity: 0.8,
+                     duration: 2000
+                 }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'napoles',
+                    opacity: 0,
+                    duration: 2000
+                }
+            ]
+        },
+
         
     ]
 };
