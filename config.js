@@ -46,19 +46,19 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'cua-oct23',
-                    opacity: 0,
-                    duration: 1
-                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
             ],
             onChapterExit: [
-                {
-                    layer: 'cua-oct23_heatmap',
-                    opacity: 0,
-                    duration: ``
-                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
             ]
+            
         },
 
         {
