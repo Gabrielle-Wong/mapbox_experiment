@@ -60,7 +60,7 @@ var config = {
             ]
             
         },
-
+        
         {
             // Template Center Chapter
             id: 'header_chapter',
@@ -136,6 +136,8 @@ var config = {
                 // }
             ]
         },
+
+        
         
         {
             
