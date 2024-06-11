@@ -137,8 +137,6 @@ var config = {
             ]
         },
 
-        
-        
         {
             
             id: 'cuaoct23_point',
@@ -219,7 +217,6 @@ var config = {
             ]
         },
 
-
         {
             
             id: 'napoles35_point',
@@ -258,8 +255,7 @@ var config = {
                     duration: 2000
                 }
             ]
-        },
-
+        }
         
     ]
 };
